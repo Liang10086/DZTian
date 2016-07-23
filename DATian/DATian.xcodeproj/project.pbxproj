@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ED464341D43750600CA5A0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED464331D43750600CA5A0C /* main.m */; };
+		6ED464371D43750600CA5A0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED464361D43750600CA5A0C /* AppDelegate.m */; };
+		6ED4643A1D43750600CA5A0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED464391D43750600CA5A0C /* ViewController.m */; };
+		6ED4643D1D43750600CA5A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED4643B1D43750600CA5A0C /* Main.storyboard */; };
+		6ED464401D43750700CA5A0C /* DATian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ED4643E1D43750700CA5A0C /* DATian.xcdatamodeld */; };
+		6ED464421D43750700CA5A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ED464411D43750700CA5A0C /* Assets.xcassets */; };
+		6ED464451D43750700CA5A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED464431D43750700CA5A0C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6ED4642F1D43750600CA5A0C /* DATian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DATian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED464331D43750600CA5A0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ED464351D43750600CA5A0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ED464361D43750600CA5A0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ED464381D43750600CA5A0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6ED464391D43750600CA5A0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6ED4643C1D43750600CA5A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ED4643F1D43750700CA5A0C /* DATian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DATian.xcdatamodel; sourceTree = "<group>"; };
+		6ED464411D43750700CA5A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ED464441D43750700CA5A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ED464461D43750700CA5A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ED4642C1D43750600CA5A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ED464261D43750600CA5A0C = {
+			isa = PBXGroup;
+			children = (
+				6ED464311D43750600CA5A0C /* DATian */,
+				6ED464301D43750600CA5A0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ED464301D43750600CA5A0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ED4642F1D43750600CA5A0C /* DATian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ED464311D43750600CA5A0C /* DATian */ = {
+			isa = PBXGroup;
+			children = (
+				6ED464351D43750600CA5A0C /* AppDelegate.h */,
+				6ED464361D43750600CA5A0C /* AppDelegate.m */,
+				6ED464381D43750600CA5A0C /* ViewController.h */,
+				6ED464391D43750600CA5A0C /* ViewController.m */,
+				6ED4643B1D43750600CA5A0C /* Main.storyboard */,
+				6ED464411D43750700CA5A0C /* Assets.xcassets */,
+				6ED464431D43750700CA5A0C /* LaunchScreen.storyboard */,
+				6ED464461D43750700CA5A0C /* Info.plist */,
+				6ED4643E1D43750700CA5A0C /* DATian.xcdatamodeld */,
+				6ED464321D43750600CA5A0C /* Supporting Files */,
+			);
+			path = DATian;
+			sourceTree = "<group>";
+		};
+		6ED464321D43750600CA5A0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ED464331D43750600CA5A0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ED4642E1D43750600CA5A0C /* DATian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ED464491D43750700CA5A0C /* Build configuration list for PBXNativeTarget "DATian" */;
+			buildPhases = (
+				6ED4642B1D43750600CA5A0C /* Sources */,
+				6ED4642C1D43750600CA5A0C /* Frameworks */,
+				6ED4642D1D43750600CA5A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DATian;
+			productName = DATian;
+			productReference = 6ED4642F1D43750600CA5A0C /* DATian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ED464271D43750600CA5A0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = china;
+				TargetAttributes = {
+					6ED4642E1D43750600CA5A0C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6ED4642A1D43750600CA5A0C /* Build configuration list for PBXProject "DATian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ED464261D43750600CA5A0C;
+			productRefGroup = 6ED464301D43750600CA5A0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ED4642E1D43750600CA5A0C /* DATian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ED4642D1D43750600CA5A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED464451D43750700CA5A0C /* LaunchScreen.storyboard in Resources */,
+				6ED464421D43750700CA5A0C /* Assets.xcassets in Resources */,
+				6ED4643D1D43750600CA5A0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ED4642B1D43750600CA5A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED464401D43750700CA5A0C /* DATian.xcdatamodeld in Sources */,
+				6ED4643A1D43750600CA5A0C /* ViewController.m in Sources */,
+				6ED464371D43750600CA5A0C /* AppDelegate.m in Sources */,
+				6ED464341D43750600CA5A0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6ED4643B1D43750600CA5A0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ED4643C1D43750600CA5A0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ED464431D43750700CA5A0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ED464441D43750700CA5A0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ED464471D43750700CA5A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6ED464481D43750700CA5A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ED4644A1D43750700CA5A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DATian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.DATian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6ED4644B1D43750700CA5A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DATian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.DATian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ED4642A1D43750600CA5A0C /* Build configuration list for PBXProject "DATian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ED464471D43750700CA5A0C /* Debug */,
+				6ED464481D43750700CA5A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ED464491D43750700CA5A0C /* Build configuration list for PBXNativeTarget "DATian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ED4644A1D43750700CA5A0C /* Debug */,
+				6ED4644B1D43750700CA5A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6ED4643E1D43750700CA5A0C /* DATian.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6ED4643F1D43750700CA5A0C /* DATian.xcdatamodel */,
+			);
+			currentVersion = 6ED4643F1D43750700CA5A0C /* DATian.xcdatamodel */;
+			path = DATian.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6ED464271D43750600CA5A0C /* Project object */;
+}
