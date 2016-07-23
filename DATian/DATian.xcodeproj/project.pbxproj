@@ -14,6 +14,7 @@
 		6ED464401D43750700CA5A0C /* DATian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ED4643E1D43750700CA5A0C /* DATian.xcdatamodeld */; };
 		6ED464421D43750700CA5A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ED464411D43750700CA5A0C /* Assets.xcassets */; };
 		6ED464451D43750700CA5A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED464431D43750700CA5A0C /* LaunchScreen.storyboard */; };
+		6ED464521D43763300CA5A0C /* DATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED464511D43763300CA5A0C /* DATViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		6ED464411D43750700CA5A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ED464441D43750700CA5A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ED464461D43750700CA5A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ED464501D43763300CA5A0C /* DATViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DATViewController.h; sourceTree = "<group>"; };
+		6ED464511D43763300CA5A0C /* DATViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DATViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		6ED464311D43750600CA5A0C /* DATian */ = {
 			isa = PBXGroup;
 			children = (
+				6ED4644C1D43761B00CA5A0C /* demo */,
 				6ED464351D43750600CA5A0C /* AppDelegate.h */,
 				6ED464361D43750600CA5A0C /* AppDelegate.m */,
 				6ED464381D43750600CA5A0C /* ViewController.h */,
@@ -80,6 +84,39 @@
 				6ED464331D43750600CA5A0C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ED4644C1D43761B00CA5A0C /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				6ED4644D1D43761B00CA5A0C /* Control */,
+				6ED4644E1D43761B00CA5A0C /* Model */,
+				6ED4644F1D43761B00CA5A0C /* View */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		6ED4644D1D43761B00CA5A0C /* Control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		6ED4644E1D43761B00CA5A0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6ED4644F1D43761B00CA5A0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ED464501D43763300CA5A0C /* DATViewController.h */,
+				6ED464511D43763300CA5A0C /* DATViewController.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +193,7 @@
 				6ED4643A1D43750600CA5A0C /* ViewController.m in Sources */,
 				6ED464371D43750600CA5A0C /* AppDelegate.m in Sources */,
 				6ED464341D43750600CA5A0C /* main.m in Sources */,
+				6ED464521D43763300CA5A0C /* DATViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
